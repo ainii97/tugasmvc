@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/index','Homecotroller@index');
+Route::get('/form','Authcotroller@form');
+
