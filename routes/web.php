@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index','Homecontroller@index');
-Route::get('/form','Authcontroller@form');
+Route::get('/index','HomeController@index');
+Route::get('/form','AuthController@form');
 
